@@ -1,0 +1,31 @@
+.content #description{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.content #products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    margin-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+#products .item{
+    background-color: rgb(10, 10, 10, 0.6);
+    border-radius: 5px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: small;
+}
+#products .item:hover{
+    box-shadow: white 0px 0px 10px 4px;
+    transition: box-shadow ease-in-out 0.1s;
+}
+#products .item img{
+    margin-top: 8px;
+    width: 95%;
+    height: 220px;
+}
