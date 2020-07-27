@@ -1,0 +1,63 @@
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "aboutUs aboutUs"
+    "vision vision"
+    "mission mission";
+    grid-gap: 1%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#aboutUs {
+    grid-area: aboutUs;
+    background-color: rgba(38, 36, 46, 0.192);
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#aboutUs:hover{
+    box-shadow: lightseagreen 0px 0px 10px 2px;
+    transition: box-shadow ease-in-out 0.1s;
+}
+
+#ourVision {
+    background-color: rgba(79, 75, 102, 0.555);
+    grid-area: vision;
+    justify-self: right;
+    text-align: center;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#ourVision:hover{
+    box-shadow: lightseagreen 0px 0px 10px 2px;
+    transition: box-shadow ease-in-out 0.1s;
+}
+
+#ourMission {
+    grid-area: mission;
+    background-color: rgba(38, 36, 46, 0.192);
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#ourMission:hover{
+    box-shadow: lightseagreen 0px 0px 10px 2px;
+    transition: box-shadow ease-in-out 0.1s;
+}
+
+
+@media screen and (min-width: 736px) {
+    .content {
+        display: grid;
+        grid-template-columns: 5% 10% 1fr 1fr 10% 5%;
+        grid-template-areas: 
+        ". aboutUs aboutUs aboutUs . ."
+        ". .  vision vision vision  ."
+        ". mission mission mission . .";
+        grid-gap: 5%;
+    }
+}
