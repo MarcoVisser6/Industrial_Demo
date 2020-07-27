@@ -9,6 +9,7 @@
         grid-gap: 2%;
         padding: 2%;
         margin-bottom: 50px;
+        color: white;
     }
     
     .content .paragraph{
@@ -38,6 +39,7 @@
         padding: 4%;
         margin-bottom: 40px;
         text-align: center;
+        color: white;
     }
     
     .content .paragraph{
