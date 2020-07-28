@@ -89,6 +89,10 @@
                                 'content content content'
                                 'footer footer footer';
         grid-gap: 20px;
+        font-family: 'Krona One', sans-serif;
+    }
+    .body::-webkit-scrollbar {
+        display: none;
     }
 
 
@@ -105,25 +109,32 @@
         width: 100%;
     }
     .navBar ul{
-        padding: 0px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
     }
     .navBar li{
-        display: inline;
-        padding: 10px;
-        border-radius: 15px;
-
-        background-color: cadetblue;
-        margin: 5px;
+        display: inline-block;
     }
     .navBar li:hover{
-        transition: background-color ease-in-out 0.2s;
-        background-color: lightgray;
-        box-shadow: white 0px 0px 10px;
-        font-weight: bold;
+        transition: all ease-in-out 0.2s;
+        box-shadow: rgb(143, 250, 245) 0px 0px 10px;
     }
-    .navBar a{
+    .navBar li a{
         text-decoration: none;
         color: aliceblue;
+
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .navBar li .active{
+        background-color: rgb(255, 255, 255);
     }
     .title{
         font-size: x-large;
@@ -143,15 +154,14 @@
         grid-area: footer;
         background-color: rgb(50, 50, 50, 0.8);
         text-align: center;
-
         width: 100%;
-        position: fixed;
+        position: relative;
         bottom: 0px;
     }
     .footer #copyright{
         padding: 20px;
         color: white;
-    }
+    }  
 }
 
 @media screen and (min-width: 100px) and (max-width: 600px){
@@ -161,7 +171,10 @@
         grid-template-areas:    'header header header' 
                                 'content content content'
                                 'footer footer footer';
-        grid-gap: 20px;
+        grid-gap: 20px;font-family: 'Krona One', sans-serif;
+    }
+    .body::-webkit-scrollbar {
+        display: none;
     }
 
 
@@ -178,18 +191,32 @@
         width: 100%;
     }
     .navBar ul{
-        padding: 0px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
     }
     .navBar li{
-        padding: 10px;
-        border-radius: 15px;
-        display: block;
-        background-color: cadetblue;
-        margin: 5px;
+        display: inline-block;
     }
-    .navBar a{
+    .navBar li:hover{
+        transition: all ease-in-out 0.2s;
+        box-shadow: rgb(143, 250, 245) 0px 0px 10px;
+    }
+    .navBar li a{
         text-decoration: none;
         color: aliceblue;
+
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .navBar li .active{
+        background-color: rgb(255, 255, 255);
     }
     .title{
         font-size: x-large;
@@ -209,9 +236,8 @@
         grid-area: footer;
         background-color: rgb(50, 50, 50, 0.8);
         text-align: center;
-
         width: 100%;
-        position: fixed;
+        position: relative;
         bottom: 0px;
     }
     .footer #copyright{
