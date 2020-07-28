@@ -33,14 +33,7 @@
         background-color: #333;
     }
     .navBar li{
-        /*display: inline;
-        padding: 10px;
-        border-radius: 15px;
-
-        background-color: cadetblue;
-        margin: 5px;*/
         display: inline-block;
-
     }
     .navBar li:hover{
         transition: all ease-in-out 0.2s;
@@ -70,6 +63,7 @@
         grid-area: content;
         min-height: 50px;
         height: fit-content;
+        min-height: calc(100vh - 120px);
     }
 
 
@@ -78,9 +72,8 @@
         grid-area: footer;
         background-color: rgb(50, 50, 50, 0.8);
         text-align: center;
-
         width: 100%;
-        position: fixed;
+        position: relative;
         bottom: 0px;
     }
     .footer #copyright{

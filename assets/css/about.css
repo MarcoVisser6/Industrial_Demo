@@ -17,13 +17,10 @@
     border-radius: 3px;
     padding-left: 15px;
     padding-right: 15px;
-    transition: all ease-in-out 0.5s;
 }
 #aboutUs:hover{
     box-shadow: lightseagreen 0px 0px 10px 2px;
     transition: box-shadow ease-in-out 0.1s;
-    transition: all ease-in-out 0.5s;
-    transform: scale(1.1);
 }
 
 #ourVision {
@@ -34,13 +31,10 @@
     border-radius: 3px;
     padding-left: 15px;
     padding-right: 15px;
-    transition: all ease-in-out 0.5s;
 }
 #ourVision:hover{
     box-shadow: lightseagreen 0px 0px 10px 2px;
     transition: box-shadow ease-in-out 0.1s;
-    transition: all ease-in-out 0.5s;
-    transform: scale(1.1);
 }
 
 #ourMission {
@@ -49,13 +43,10 @@
     border-radius: 3px;
     padding-left: 15px;
     padding-right: 15px;
-    transition: all ease-in-out 0.5s;
 }
 #ourMission:hover{
     box-shadow: lightseagreen 0px 0px 10px 2px;
     transition: box-shadow ease-in-out 0.1s;
-    transition: all ease-in-out 0.5s;
-    transform: scale(1.1);
 }
 
 
