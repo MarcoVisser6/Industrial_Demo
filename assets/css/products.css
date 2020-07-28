@@ -106,9 +106,10 @@
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
         color: whitesmoke;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         text-transform: uppercase;
         font-size: small;
+        margin-bottom: 5%;
     }
     #products .item:hover{
         box-shadow: lightseagreen 0px 0px 10px 2px;
