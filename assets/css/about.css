@@ -22,8 +22,6 @@
 #aboutUs:hover{
     box-shadow: lightseagreen 0px 0px 10px 2px;
     transition: box-shadow ease-in-out 0.1s;
-    transition: all ease-in-out 0.5s;
-    transform: scale(1.1);
 }
 
 #ourVision {
@@ -39,8 +37,6 @@
 #ourVision:hover{
     box-shadow: lightseagreen 0px 0px 10px 2px;
     transition: box-shadow ease-in-out 0.1s;
-    transition: all ease-in-out 0.5s;
-    transform: scale(1.1);
 }
 
 #ourMission {
@@ -54,8 +50,6 @@
 #ourMission:hover{
     box-shadow: lightseagreen 0px 0px 10px 2px;
     transition: box-shadow ease-in-out 0.1s;
-    transition: all ease-in-out 0.5s;
-    transform: scale(1.1);
 }
 
 
@@ -69,4 +63,26 @@
         ". mission mission mission . .";
         grid-gap: 5%;
     }
+
+    #aboutUs:hover{
+        box-shadow: lightseagreen 0px 0px 10px 2px;
+        transition: box-shadow ease-in-out 0.1s;
+        transition: all ease-in-out 0.5s;
+        transform: scale(1.1);
+    }
+
+    #ourVision:hover{
+        box-shadow: lightseagreen 0px 0px 10px 2px;
+        transition: box-shadow ease-in-out 0.1s;
+        transition: all ease-in-out 0.5s;
+        transform: scale(1.1);
+    }
+
+    #ourMission:hover{
+        box-shadow: lightseagreen 0px 0px 10px 2px;
+        transition: box-shadow ease-in-out 0.1s;
+        transition: all ease-in-out 0.5s;
+        transform: scale(1.1);
+    }
 }
+
