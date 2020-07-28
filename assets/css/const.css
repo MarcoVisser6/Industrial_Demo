@@ -63,7 +63,6 @@
         grid-area: content;
         min-height: 50px;
         height: fit-content;
-        min-height: calc(100vh - 120px);
     }
 
 
