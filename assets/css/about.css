@@ -68,21 +68,21 @@
         box-shadow: lightseagreen 0px 0px 10px 2px;
         transition: box-shadow ease-in-out 0.1s;
         transition: all ease-in-out 0.5s;
-        transform: scale(1.1);
+        transform: scale(1.01);
     }
 
     #ourVision:hover{
         box-shadow: lightseagreen 0px 0px 10px 2px;
         transition: box-shadow ease-in-out 0.1s;
         transition: all ease-in-out 0.5s;
-        transform: scale(1.1);
+        transform: scale(1.01);
     }
 
     #ourMission:hover{
         box-shadow: lightseagreen 0px 0px 10px 2px;
         transition: box-shadow ease-in-out 0.1s;
         transition: all ease-in-out 0.5s;
-        transform: scale(1.1);
+        transform: scale(1.01);
     }
 }
 
