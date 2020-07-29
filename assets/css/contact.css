@@ -6,6 +6,7 @@
         min-height: 400px;
         width: 80%;
         margin: auto;
+        padding-top: 18%;
     }
     
     /* || MAP || */
@@ -53,9 +54,11 @@
         color: black;
         transition: color 0.3s ease-in-out;
     }  
+
 }
 
 @media screen and (min-width: 100px) and (max-width: 800px){
+    
     .content{
         display: grid;
         grid-gap: 10px;
