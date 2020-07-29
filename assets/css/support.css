@@ -1,6 +1,7 @@
-@media screen and (min-width: 900px){
-    .content{
+@media screen and (min-width: 1225px){
+    /* .content{
         background-color: rgb(10, 10, 10, 0.6);
+        font-size: 110%;
         width: 80%;
         margin: auto;
         border-radius: 10px;
@@ -10,10 +11,70 @@
         padding: 2%;
         margin-bottom: 50px;
         color: white;
+        margin-top: 3%;
+    } */
+    
+    .content{
+        background-color: rgb(10, 10, 10, 0.6);
+        width: 80%;
+        font-size: 110%;
+        margin: auto;
+        margin-top: 2%;
+        border-radius: 10px;
+        display: grid;
+        grid-template-areas: 'paragraph image';
+        grid-gap: 1%;
+        padding: 4%;
+        margin-bottom: 40px;
+        text-align: center;
+        color: white;
+    }
+
+    .content .paragraph{
+        padding-left: 12%;
+        grid-area: paragraph;
+        max-width: 76%;
+        margin-top: 5%;
+    }
+
+    .content .paragraph h2{
+        padding-bottom: 5%;
+    }
+    
+    .content .image{
+        grid-area: image;
+        align-self: center;
+    }
+    
+    .content img{
+        min-width: 350px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1225px){
+    .content{
+        background-color: rgb(10, 10, 10, 0.6);
+        width: 90%;
+        margin: auto;
+        border-radius: 10px;
+        display: grid;
+        grid-template-areas: 
+            "paragraph" 
+            "image";
+        grid-gap: 1%;
+        padding: 4%;
+        margin-bottom: 40px;
+        text-align: center;
+        color: white;
     }
     
     .content .paragraph{
+        padding-left: 12%;
         grid-area: paragraph;
+        max-width: 76%;
     }
     
     .content .image{
@@ -21,8 +82,7 @@
     }
     
     .content img{
-        min-width: 350px;
-        width: 100%;
+        width: 75%;
         border-radius: 3px;
     }
 }
