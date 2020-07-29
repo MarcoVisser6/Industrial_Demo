@@ -6,7 +6,7 @@
   grid-column-start: 1;
   grid-column-end: 4;
   margin: auto;
-  width: 50%;
+  width: 80%;
   background-color: rgb(0, 0, 0, 0.7);
   color: white;
   padding: 1%;
@@ -55,7 +55,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 650px;
+  width: 80%;
   position: relative;
   margin: auto;
 }
@@ -154,6 +154,7 @@
 
 @media only screen and (min-width: 100px) and (max-width: 600px){
   .contact-info{
+    margin-top: 10%;
     width: 98%;
     grid-template-areas:  'contact '
                           'contactDetail'
@@ -164,5 +165,8 @@
   }
   .social-media a{
     display: inline;
+  }
+  .slideshow-container {
+  width: 98%;
   }
 }
