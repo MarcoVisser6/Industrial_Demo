@@ -38,6 +38,21 @@
         text-decoration: none;
         color: white;
     }
+
+    .social-media {
+        align-items: center;
+        font-size: xx-large;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 1.3rem;
+        color: whitesmoke;
+    }
+    .fa:hover {
+        color: black;
+        transition: color 0.3s ease-in-out;
+    }  
 }
 
 @media screen and (min-width: 100px) and (max-width: 800px){
@@ -80,5 +95,16 @@
     .contact-info table a{
         text-decoration: none;
         color: white;
+    }
+
+    .social-media {
+        align-items: center;
+        font-size: xx-large;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 1.3rem;
+        color: whitesmoke;
     }
 }
