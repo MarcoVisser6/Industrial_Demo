@@ -4,7 +4,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  max-width: 650px;
   position: relative;
   margin: auto;
 }
@@ -99,5 +99,5 @@
 
 
 .content{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
