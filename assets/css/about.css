@@ -18,6 +18,7 @@
     padding-left: 15px;
     padding-right: 15px;
     transition: all ease-in-out 0.5s;
+    min-height: 160px;
 }
 #aboutUs:hover{
     box-shadow: lightseagreen 0px 0px 10px 2px;
@@ -27,12 +28,12 @@
 #ourVision {
     background-color: rgba(79, 75, 102, 0.555);
     grid-area: vision;
-    justify-self: right;
-    text-align: center;
     border-radius: 3px;
     padding-left: 15px;
     padding-right: 15px;
     transition: all ease-in-out 0.5s;
+    min-height: 160px;
+    
 }
 #ourVision:hover{
     box-shadow: lightseagreen 0px 0px 10px 2px;
@@ -46,6 +47,7 @@
     padding-left: 15px;
     padding-right: 15px;
     transition: all ease-in-out 0.5s;
+    min-height: 160px;
 }
 #ourMission:hover{
     box-shadow: lightseagreen 0px 0px 10px 2px;
@@ -54,14 +56,18 @@
 
 
 @media screen and (min-width: 736px) {
-    .content {
+    .content{
         display: grid;
-        grid-template-columns: 5% 10% 1fr 1fr 10% 5%;
+        grid-template-columns: 5% 20% 1fr 1fr 20% 5%;
         grid-template-areas: 
         ". aboutUs aboutUs aboutUs . ."
         ". .  vision vision vision  ."
         ". mission mission mission . .";
-        grid-gap: 5%;
+        grid-row-gap: 10%;
+    }
+
+    #aboutUs{
+        margin-top: 3%;
     }
 
     #aboutUs:hover{
